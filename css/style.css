@@ -1,7 +1,7 @@
 /* Website template by freewebsitetemplates.com */
 /*------------------------- Layout styles ------------------------*/ 
 body {
-	background:url(../images/bg-body.jpg);
+	background-color: #AF1E2D;
 	margin:0;
 }
 .page {
@@ -62,7 +62,7 @@ p a:hover {
 	text-align:left;
 }
 .sidebar ul.navigation li a {
-	background-color:#d88d30;
+	background-color:#666366;
 	color:#fbf6f2;
 	display:block;
 	font-family:QuicksandRegular;
@@ -89,7 +89,7 @@ p a:hover {
 	height:329px;
 }
 .body div div {
-	background-color:#dccfaf;
+	background-color:#ffffff;
 	width:auto;
 	color:#447f8d;
 	min-height:781px;
@@ -632,7 +632,7 @@ p a:hover {
 	padding:0 0 5px;
 	width:auto;
 	margin:0 auto;
-	background:url(../images/bg-footer.jpg)!important;
+	background-color: #666366;
 	min-height: 252px;
 }
 .footer > div {
@@ -641,7 +641,7 @@ p a:hover {
 	padding: 0 0 0 190px;
 }
 .footer div div {
-	background:url(../images/bg-footer.jpg)!important;
+	background-color: #666366;
 }
 .footer div div div:first-child {
 	border-color:#e3b06f;
