@@ -746,7 +746,16 @@ p a:hover {
 	margin:10px 0 0;
 	overflow:hidden;
 }
-.footer div div div form input:first-child {
+.footer div div div form input[type="submit"] {
+	background:url(../images/interface.png) no-repeat -10px -316px;
+	border:0;
+	cursor:pointer;
+	float:left;
+	height:26px;
+	padding:0;
+	width:75px;
+}
+.footer div div div form input {
 	background:#dccfaf;
 	border-color:#daa964;
 	border-style:solid none;
@@ -758,15 +767,6 @@ p a:hover {
 	height:14px;
 	padding:6px 5px 4px;
 	width:130px;
-}
-.footer div div div form input {
-	background:url(../images/interface.png) no-repeat -10px -316px;
-	border:0;
-	cursor:pointer;
-	float:left;
-	height:26px;
-	padding:0;
-	width:75px;
 }
 .footer div div div.connect {
 	border-color:#a36a23;
